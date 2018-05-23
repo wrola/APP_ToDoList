@@ -1,0 +1,56 @@
+@import '_main_hero.scss';
+@import '_footer.scss';
+@import '_header.scss';
+
+:root {
+  --color1: #93b046;
+  --color2: #f5fff8;
+  --color3: #5ef0ea
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  body {
+    background: #93b046;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #96c93d, #f7fffd);
+    background: linear-gradient(to right, #96c93d, #f5fff8);
+    font-family: 'Oswald','Play', sans-serif;
+    font-size: 20px;
+    color: var(--color1);
+  }
+
+  .btn {
+    color: var(--color1);
+    background-color: Transparent;
+    background-repeat: no-repeat;
+    border: 1px solid var(--color1);
+    cursor:pointer;
+    padding: 10px 15px;
+    &:hover {
+    background-color: var(--color1);
+    color: var(--color2);
+    }
+  }
+}
+
+// RWD
+
+@media screen and (max-width: 380px) {
+
+}
+
+@media screen and (min-width: 381px) and (max-width: 425px) {
+
+}
+
+@media screen and (min-width: 426px) and (max-width: 840px) {
+
+}
+
+@media screen and (min-width: 841px) {
+
+}
+
+
+
