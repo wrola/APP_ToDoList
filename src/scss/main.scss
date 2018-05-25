@@ -3,7 +3,7 @@
 @import '_header.scss';
 
 :root {
-  --color1: #93b046;
+  --color1: #8da9ff;
   --color2: #f5fff8;
   --color3: #5ef0ea
 }
@@ -12,9 +12,9 @@
   margin: 0;
   padding: 0;
   body {
-    background: #93b046;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #96c93d, #f7fffd);
-    background: linear-gradient(to right, #96c93d, #f5fff8);
+    background: #5153b0;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #6370c9, #f7fffd);
+    background: linear-gradient(to right, #3864c9, #f5fff8);
     font-family: 'Oswald','Play', sans-serif;
     font-size: 20px;
     color: var(--color1);
@@ -24,7 +24,7 @@
     color: var(--color1);
     background-color: var(--color2);
     background-repeat: no-repeat;
-    border: 1px solid var(--color3);
+    border: 3px solid var(--color3);
     cursor:pointer;
     padding: 10px 15px;
     &:hover {
