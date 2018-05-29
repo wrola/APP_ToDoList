@@ -1,7 +1,8 @@
 import('./scss/main.scss');
 // add task
-function addTask() {
-    newDiv = document.body.appendChild(li);
-    newDiv.innerText = e.current.value();
 
+function addTask(e){
+ const newElemOfList = document.createElement('li');
+ newElemOfList.innerText = e.current.value();
+ document.body.appendChild(newElemOfList);
 }
